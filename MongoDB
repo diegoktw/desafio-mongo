@@ -1,0 +1,1 @@
+docker container run --name db-mongo -d -p 27017:27017 -e MONGODB_DATABASE=curso_docker -e MONGODB_USERNAME=docker_usr -e MONGODB_ROOT_PASSWORD=docker_pwd bitnami/mongodb:7.0.14
